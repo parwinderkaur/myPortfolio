@@ -66,7 +66,7 @@ navLinks.forEach((link, idx) => {
 
       setTimeout(() => {
         sections[idx].classList.add("active");
-      }, 0);
+      }, 1100);
     }
   });
 });
@@ -167,7 +167,7 @@ doc.setFont("times", "normal");
   // Contact Details
   doc.setFontSize(12);
   doc.setTextColor(50, 50, 50);
-  doc.text("Email: your.email@example.com  |  Phone: 8888888888", 20, 30);
+  doc.text("Email: parwinderkaur385@gmail.com.com  |  Phone: 9501268759", 20, 30);
   doc.text("Location: Punjab, India", 20, 38);
 
   addSectionDivider(44); // Section divider
